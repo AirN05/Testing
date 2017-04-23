@@ -1,0 +1,47 @@
+{
+  "uid" : "76f93639f147b055",
+  "name" : "activeCitizenExistenceCheck",
+  "title" : "Active citizen existence check",
+  "time" : {
+    "start" : 1490378387360,
+    "stop" : 1490378392118,
+    "duration" : 4758
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 0
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "testId" : null,
+  "suite" : {
+    "uid" : "49f7527d5dd944f9",
+    "name" : "Default Suite : iitfrontend",
+    "title" : "Default Suite : iitfrontend"
+  },
+  "steps" : [ ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "RLT-L-MK01"
+  }, {
+    "name" : "thread",
+    "value" : "16176@RLT-L-MK01.main(1)"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-name",
+    "value" : "Default Suite : iitfrontend"
+  }, {
+    "name" : "suite-title",
+    "value" : "Default Suite : iitfrontend"
+  }, {
+    "name" : "framework",
+    "value" : "TestNG"
+  } ],
+  "parameters" : [ ]
+}

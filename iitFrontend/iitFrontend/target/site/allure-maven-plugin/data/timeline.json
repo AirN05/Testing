@@ -1,0 +1,100 @@
+{
+  "hosts" : [ {
+    "title" : "RLT-L-MK01",
+    "threads" : [ {
+      "title" : "16176@RLT-L-MK01.main(1)",
+      "testCases" : [ {
+        "uid" : "5a26a0b7da75af92",
+        "name" : "activeCitizenExistenceCheck",
+        "title" : "Active citizen existence check",
+        "time" : {
+          "start" : 1490378387360,
+          "stop" : 1490378392118,
+          "duration" : 4758
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "2ec870900852eaf",
+        "name" : "categoriesNumberCheck",
+        "title" : "Categories number check",
+        "time" : {
+          "start" : 1490378399085,
+          "stop" : 1490378403214,
+          "duration" : 4129
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "9ac362ffdba46b3b",
+        "name" : "openActiveCitizenCategory",
+        "title" : "Open active citizen category",
+        "time" : {
+          "start" : 1490378408447,
+          "stop" : 1490378456052,
+          "duration" : 47605
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "b1069e365caaea2f",
+        "name" : "openActiveCitizenCategoryToFail",
+        "title" : "Open active citizen category to fail",
+        "time" : {
+          "start" : 1490378462086,
+          "stop" : 1490378486040,
+          "duration" : 23954
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    }, {
+      "title" : "17928@RLT-L-MK01.main(1)",
+      "testCases" : [ {
+        "uid" : "f52cd02a115a888e",
+        "name" : "activeCitizenExistenceCheck",
+        "title" : "Active citizen existence check",
+        "time" : {
+          "start" : 1490417678709,
+          "stop" : 1490417773913,
+          "duration" : 95204
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "5318f4fbb514aebf",
+        "name" : "categoriesNumberCheck",
+        "title" : "Categories number check",
+        "time" : {
+          "start" : 1490417782498,
+          "stop" : 1490417788143,
+          "duration" : 5645
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "82862475abf31d4a",
+        "name" : "openActiveCitizenCategory",
+        "title" : "Open active citizen category",
+        "time" : {
+          "start" : 1490417794074,
+          "stop" : 1490417809804,
+          "duration" : 15730
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      }, {
+        "uid" : "edac3c1f9a55827d",
+        "name" : "openActiveCitizenCategoryToFail",
+        "title" : "Open active citizen category to fail",
+        "time" : {
+          "start" : 1490417814894,
+          "stop" : 1490417848014,
+          "duration" : 33120
+        },
+        "severity" : "NORMAL",
+        "status" : "FAILED"
+      } ]
+    } ]
+  } ]
+}

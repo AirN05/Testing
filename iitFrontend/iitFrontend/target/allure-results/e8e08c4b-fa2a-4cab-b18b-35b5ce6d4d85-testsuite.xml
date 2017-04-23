@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492960832127" stop="1492960950628" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : iitfrontend</name>
+    <title>Default Suite : iitfrontend</title>
+    <test-cases>
+        <test-case start="1492960837563" stop="1492960844223" status="passed">
+            <name>animalExistenceCheck</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960847115" stop="1492960855254" status="passed">
+            <name>categoriesNumberCheck</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960857487" stop="1492960867069" status="passed">
+            <name>exportAnimalSubCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960869199" stop="1492960882538" status="passed">
+            <name>filterAnimalSubCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960885378" stop="1492960897406" status="passed">
+            <name>mapAnimalSubCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960899547" stop="1492960912104" status="passed">
+            <name>mapVetAnimalSubCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960914255" stop="1492960926644" status="passed">
+            <name>openAnimalCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492960928897" stop="1492960949852" status="passed">
+            <name>openAnimalSubCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="7688@Airi.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

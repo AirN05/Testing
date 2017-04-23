@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492882527975" stop="1492882613191" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>TaskLists : Chrome</name>
+    <title>TaskLists : Chrome</title>
+    <test-cases>
+        <test-case start="1492882535968" stop="1492882554987" status="passed">
+            <name>activeCitizenExistenceCheck</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="11084@Airi.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492882560802" stop="1492882577975" status="passed">
+            <name>categoriesNumberCheck</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="11084@Airi.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492882582316" stop="1492882600062" status="passed">
+            <name>openActiveCitizenCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="11084@Airi.TestNG(13)"/>
+            </labels>
+        </test-case>
+        <test-case start="1492882603340" stop="1492882612517" status="passed">
+            <name>openActiveCitizenCategoryToFail</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="11084@Airi.TestNG(13)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

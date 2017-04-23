@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1492950853729" stop="1492950871343" version="1.4.23" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Default Suite : iitfrontend</name>
+    <title>Default Suite : iitfrontend</title>
+    <test-cases>
+        <test-case start="1492950860505" stop="1492950869981" status="passed">
+            <name>filterAnimalSubCategory</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="Airi"/>
+                <label name="thread" value="9936@Airi.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
