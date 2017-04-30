@@ -56,7 +56,7 @@ public class MainPageTest extends BaseTest {
         dataPage.getSelectedItem().getTextElement().shouldHave(text(CATEGORY_NAME));
     }
 
-    @Test
+    @Test  //DMru-10:[FUN] Просмотр данных набора "Площадки для выгула (дрессировки) собак"
     public void openAnimalSubCategory() {
         MainPage page = page(MainPage.class);
 
@@ -72,19 +72,18 @@ public class MainPageTest extends BaseTest {
         subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getCaptionTextElement().click();
     }
 
-    @Test
+    @Test   // DMru-6:[FUN] Экспорт данных о ветеринарных учреждениях в формате json
     public void exportAnimalSubCategory() {
 
         DataPage dataPage = page(DataPage.class);
         dataPage.navigate();
         dataPage.shouldBeOpened();
-
         Categories subCategories = dataPage.getSubCategories();
-        subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getExportElement().click();
-        $(By.cssSelector("#dropExport > li:nth-child(1) > div > a")).click();
+        subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getExportElement().click();//нажимаем на кнопку "Экспорт"
+        $(By.cssSelector("#dropExport > li:nth-child(1) > div > a")).click(); //Нажимаем на json
     }
 
-    @Test
+    @Test // DMru-24:[FUN] Фильтрация данных по значению столбца
     public void filterAnimalSubCategory() {
 
         DataPage dataPage = page(DataPage.class);
@@ -94,11 +93,11 @@ public class MainPageTest extends BaseTest {
         Categories subCategories = dataPage.getSubCategories();
         subCategories.getSubCategoryByName("Приюты для бродячих животных").getCaptionTextElement().click();
         registerNewTab();
-        $(By.cssSelector("#rows-content > thead > tr.filter_tr > td:nth-child(4) > div > div")).click();
-        $(By.cssSelector("#dropFilter-District > ul > li:nth-child(1)")).click();
+        $(By.cssSelector("#rows-content > thead > tr.filter_tr > td:nth-child(4) > div > div")).click(); //нажимаем на столбец
+        $(By.cssSelector("#dropFilter-District > ul > li:nth-child(1)")).click(); //выбираем первый пункт
     }
 
-    @Test
+    @Test //DMru-26:[FUN] Наличие карты у выбранного пункта данных
     public void mapAnimalSubCategory() {
 
         DataPage dataPage = page(DataPage.class);
@@ -108,10 +107,10 @@ public class MainPageTest extends BaseTest {
         Categories subCategories = dataPage.getSubCategories();
         subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getCaptionTextElement().click();
         registerNewTab();
-        $(By.xpath("//*[@id=\"rows\"]")).findElementByCssSelector("#id_272622268 > div > div.map-card-link.r1");
+        $(By.xpath("//*[@id=\"rows\"]")).findElementByCssSelector("#id_272622268 > div > div.map-card-link.r1");//находим нужную строку и элемент "Показать на карте" в этой строке
     }
 
-    @Test
+    @Test //DMru-27:[FUN] Просмотр информации о ветеринарном учреждении из режима "Карта"
     public void mapVetAnimalSubCategory() {
 
         DataPage dataPage = page(DataPage.class);
@@ -121,7 +120,7 @@ public class MainPageTest extends BaseTest {
         Categories subCategories = dataPage.getSubCategories();
         subCategories.getSubCategoryByName("Ветеринарные учреждения").getCaptionTextElement().click();
         registerNewTab();
-        $(By.cssSelector("#app > div:nth-child(3) > ul > li.hide-lt-500-important > a")).click();
-    }
+        $(By.cssSelector("#app > div:nth-child(3) > ul > li.hide-lt-500-important > a")).click(); //нажимаем по селектору на меню карта
+    }                                                                                             // только нет возможности тыкнуть на карту, ибо это вообще не часть сайта
 
 }
