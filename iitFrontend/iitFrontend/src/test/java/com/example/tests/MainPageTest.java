@@ -87,6 +87,10 @@ public class MainPageTest extends BaseTest {
         dataPage.shouldBeOpened();
         Categories subCategories = dataPage.getSubCategories();
         subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getExportElement().click();//нажимаем на кнопку "Экспорт"
+        $(By.cssSelector("#dropExport > li:nth-child(1) > div > a")).find("json"); //проверяем открывшийся список
+        $(By.cssSelector("#dropExport > li:nth-child(2) > div > a")).find("xlsx");
+        $(By.cssSelector("#dropExport > li:nth-child(3) > div > a")).find("xml");
+        $(By.cssSelector("#dropExport > li:nth-child(4) > a")).find("geojson");
         $(By.cssSelector("#dropExport > li:nth-child(1) > div > a")).click(); //Нажимаем на json
     }
 
