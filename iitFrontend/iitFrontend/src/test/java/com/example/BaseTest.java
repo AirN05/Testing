@@ -36,7 +36,7 @@ public abstract class BaseTest extends GalenTestNgTestBase {
         Configuration.timeout = 10000;
 
         browserSizes = new HashMap<>();
-        browserSizes.put(Constants.SCREEN_DESKTOP, new int[] {1024, 768});
+        browserSizes.put(Constants.SCREEN_DESKTOP, new int[] {1200, 768});
         browserSizes.put("largeDesktop", new int[] {1600, 1200});
     }
 

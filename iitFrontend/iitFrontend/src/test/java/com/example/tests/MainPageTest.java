@@ -70,6 +70,13 @@ public class MainPageTest extends BaseTest {
 
         Categories subCategories = dataPage.getSubCategories();
         subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getCaptionTextElement().click();
+        $(By.cssSelector("#rows-caption")).find("#"); //смотрим наличие всех столбцов в таблице
+        $(By.cssSelector("#rows-caption")).find("Ведомственная принадлежность");
+        $(By.cssSelector("#rows-content")).find("Адресный ориентир");
+        $(By.cssSelector("#rows-content")).find("Элементы площадки");
+        $(By.cssSelector("#rows-content")).find("Освещение площадки");
+        $(By.cssSelector("#rows-content")).find("Ограждение площадки");
+
     }
 
     @Test   // DMru-6:[FUN] Экспорт данных о ветеринарных учреждениях в формате json
@@ -95,6 +102,8 @@ public class MainPageTest extends BaseTest {
         registerNewTab();
         $(By.cssSelector("#rows-content > thead > tr.filter_tr > td:nth-child(4) > div > div")).click(); //нажимаем на столбец
         $(By.cssSelector("#dropFilter-District > ul > li:nth-child(1)")).click(); //выбираем первый пункт
+        $(By.cssSelector("#rows-content > thead > tr.filter_tr > td:nth-child(4) > div > i.filter-reset")).click(); //кликаем на кнопку, чтоб отфильтровалось
+        $(By.cssSelector("#rows > div:nth-child(3) > div.pager.page-container > span")).find("1 из 13"); //смотрим количество отфильтрованных записей
     }
 
     @Test //DMru-26:[FUN] Наличие карты у выбранного пункта данных
@@ -107,7 +116,10 @@ public class MainPageTest extends BaseTest {
         Categories subCategories = dataPage.getSubCategories();
         subCategories.getSubCategoryByName("Площадки для выгула (дрессировки) собак").getCaptionTextElement().click();
         registerNewTab();
-        $(By.xpath("//*[@id=\"rows\"]")).findElementByCssSelector("#id_272622268 > div > div.map-card-link.r1");//находим нужную строку и элемент "Показать на карте" в этой строке
+        $(By.cssSelector("#rows-caption")).findElementByCssSelector("#rows-caption > tbody > tr:nth-child(1)");//находим нужную строку и элемент "Показать на карте" в этой строке
+        $(By.cssSelector("#rows-caption > tbody > tr:nth-child(1)")).click(); //кликаем по элементу
+        $(By.cssSelector("#card")).find("Департамент культуры города Москвы"); //находим карточку с описанием
+        $(By.cssSelector("##mapCard")).find("Карта"); //находим сам элемент карты
     }
 
     @Test //DMru-27:[FUN] Просмотр информации о ветеринарном учреждении из режима "Карта"
@@ -121,6 +133,9 @@ public class MainPageTest extends BaseTest {
         subCategories.getSubCategoryByName("Ветеринарные учреждения").getCaptionTextElement().click();
         registerNewTab();
         $(By.cssSelector("#app > div:nth-child(3) > ul > li.hide-lt-500-important > a")).click(); //нажимаем по селектору на меню карта
-    }                                                                                             // только нет возможности тыкнуть на карту, ибо это вообще не часть сайта
+        $(By.cssSelector("#app > div:nth-child(3) > ul")).findElementByCssSelector("#app > div:nth-child(3) > ul > li.hide-lt-500-important.selected > a");//убеждаемся, что карта открылась и стала активна
+        // только нет возможности тыкнуть на элемент карты, ибо это вообще не часть сайта
+    }
+
 
 }
