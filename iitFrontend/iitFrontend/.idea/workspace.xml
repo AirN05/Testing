@@ -31,53 +31,11 @@
       <file leaf-file-name="MainPageTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/example/tests/MainPageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="89" column="113" lean-forward="false" selection-start-line="89" selection-start-column="113" selection-end-line="89" selection-end-column="113" />
+            <state relative-caret-position="1139">
+              <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="31" column="1" lean-forward="false" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/DataPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Categories.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/example/components/Categories.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="16" column="59" lean-forward="false" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="59" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -182,6 +140,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -408,9 +369,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -433,7 +391,7 @@
       <recent name="C:\Work\tmp\iitFrontend\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MainPageTest.exportAnimalSubCategory">
+  <component name="RunManager" selected="TestNG.MainPageTest.mapVetAnimalSubCategory">
     <configuration default="false" name="MainPageTest.filterAnimalSubCategory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1044,11 +1002,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.MainPageTest.exportAnimalSubCategory" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.MainPageTest.mapVetAnimalSubCategory" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.MainPageTest.mapAnimalSubCategory" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.MainPageTest.mapVetAnimalSubCategory" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.MainPageTest.openAnimalSubCategory" />
         <item index="3" class="java.lang.String" itemvalue="TestNG.MainPageTest.filterAnimalSubCategory" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.MainPageTest.openAnimalSubCategory" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.MainPageTest.exportAnimalSubCategory" />
       </list>
     </recent_temporary>
   </component>
@@ -1068,43 +1026,45 @@
       <workItem from="1493535946725" duration="474000" />
       <workItem from="1494139127605" duration="4403000" />
       <workItem from="1494144021222" duration="271000" />
+      <workItem from="1494151701900" duration="2651000" />
+      <workItem from="1494755907140" duration="2652000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainPageTest_exportAnimalSubCategory - 2017.05.07 at 13h 04m 34s.xml">
+    <history-entry file="MainPageTest_exportAnimalSubCategory - 2017.05.14 at 15h 13m 58s.xml">
       <configuration name="MainPageTest.exportAnimalSubCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 35m 31s.xml">
+    <history-entry file="MainPageTest_exportAnimalSubCategory - 2017.05.14 at 15h 19m 28s.xml">
+      <configuration name="MainPageTest.exportAnimalSubCategory" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainPageTest_exportAnimalSubCategory - 2017.05.14 at 15h 20m 36s.xml">
+      <configuration name="MainPageTest.exportAnimalSubCategory" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainPageTest_filterAnimalSubCategory - 2017.05.14 at 15h 24m 33s.xml">
+      <configuration name="MainPageTest.filterAnimalSubCategory" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainPageTest_filterAnimalSubCategory - 2017.05.14 at 15h 25m 33s.xml">
+      <configuration name="MainPageTest.filterAnimalSubCategory" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainPageTest_filterAnimalSubCategory - 2017.05.14 at 15h 26m 20s.xml">
+      <configuration name="MainPageTest.filterAnimalSubCategory" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.14 at 15h 39m 44s.xml">
       <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 36m 08s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
+    <history-entry file="MainPageTest_mapVetAnimalSubCategory - 2017.05.14 at 15h 42m 48s.xml">
+      <configuration name="MainPageTest.mapVetAnimalSubCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 38m 03s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
+    <history-entry file="MainPageTest_openAnimalSubCategory - 2017.05.14 at 15h 32m 17s.xml">
+      <configuration name="MainPageTest.openAnimalSubCategory" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 39m 51s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 41m 53s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 42m 57s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 44m 09s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 50m 39s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="MainPageTest_mapAnimalSubCategory - 2017.05.07 at 12h 50m 40s.xml">
-      <configuration name="MainPageTest.mapAnimalSubCategory" configurationId="TestNG" />
+    <history-entry file="MainPageTest_openAnimalSubCategory - 2017.05.14 at 15h 35m 15s.xml">
+      <configuration name="MainPageTest.openAnimalSubCategory" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42548000" />
+    <option name="totallyTimeSpent" value="47851000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1129,12 +1089,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.13993949" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.08660131" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22712418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27609682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25718608" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1158,7 +1118,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="12" />
+      <option name="time" value="15" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1179,9 +1139,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1223,9 +1180,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1394">
           <caret line="82" column="37" lean-forward="false" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,9 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1037">
           <caret line="82" column="37" lean-forward="false" selection-start-line="82" selection-start-column="37" selection-end-line="82" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1340,9 +1291,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1420,9 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1507,18 +1452,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/components/CategoryItemDataPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.550/MainPageTest.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="32" column="35" lean-forward="false" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-170">
+          <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/components/CategoryItemDataPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1531,6 +1484,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/DataPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -1539,28 +1500,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="66" lean-forward="false" selection-start-line="38" selection-start-column="66" selection-end-line="38" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/example/pages/DataPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="22" column="20" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/example/tests/MainPageTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="89" column="113" lean-forward="false" selection-start-line="89" selection-start-column="113" selection-end-line="89" selection-end-column="113" />
+        <state relative-caret-position="1139">
+          <caret line="168" column="43" lean-forward="false" selection-start-line="168" selection-start-column="43" selection-end-line="168" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
